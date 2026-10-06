@@ -17,21 +17,33 @@
 // Console.WriteLine($"Всего оценок: {grades.Length}");
 // Console.WriteLine($"Средний балл: {sb}");
 
-// string[] students = { "Аня", "Борис", "Вика" };
-// int number = 1;
+//  string[] students = { "Аня", "Борис", "Вика" };
+//  int count = 0;
 
-// foreach (string student in students) {
-//     Console.WriteLine($"{number}. {student}");
-//     number++;
+// foreach (string student in students)
+// {
+//     count++;
+// }
+
+// Console.WriteLine($"Всего учеников: {count}");
+
+
+// int[] numbers = { 10, 20, 15 };
+
+// for (int i = 0; i < numbers.Length; i++) {
+//     numbers[i] = numbers[i] + 5;
+// }
+
+// foreach (int n in numbers) {
+//     Console.WriteLine(n);
 // }
 
 
-int[] numbers = { 10, 20, 15 };
+string[] students = {"Аня", "Ярослав", "Вика"};
+int number = 1;
 
-for (int i = 0; i < numbers.Length; i++) {
-    numbers[i] = numbers[i] + 5;
-}
-
-foreach (int n in numbers) {
-    Console.WriteLine(n);
+foreach (string student in students)
+{
+    Console.WriteLine($"{number} . {student}");
+    number++;
 }
