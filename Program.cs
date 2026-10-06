@@ -17,3 +17,21 @@
 // Console.WriteLine($"Всего оценок: {grades.Length}");
 // Console.WriteLine($"Средний балл: {sb}");
 
+// string[] students = { "Аня", "Борис", "Вика" };
+// int number = 1;
+
+// foreach (string student in students) {
+//     Console.WriteLine($"{number}. {student}");
+//     number++;
+// }
+
+
+int[] numbers = { 10, 20, 15 };
+
+for (int i = 0; i < numbers.Length; i++) {
+    numbers[i] = numbers[i] + 5;
+}
+
+foreach (int n in numbers) {
+    Console.WriteLine(n);
+}
